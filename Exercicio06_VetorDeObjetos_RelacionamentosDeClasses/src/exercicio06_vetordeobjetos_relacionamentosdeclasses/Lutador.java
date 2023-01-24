@@ -12,6 +12,7 @@ public class Lutador {
     private int vitorias;
     private int derrotas;
     private int empates;
+            
 
     //Metodos publicos
     public void apresentar() {
@@ -31,7 +32,7 @@ public class Lutador {
         System.out.println(this.getNome() + " na categoria: " + this.getCategoria());
         System.out.println("Ganhou " + this.getVitorias() + " vezes");
         System.out.println("Perdeu " + this.getDerrotas() + " vezes");
-        System.out.println("Empator " + this.getEmpates() + " vezes");
+        System.out.println("Empatou " + this.getEmpates() + " vezes");
         System.out.println("--------------------------------------");
     }
 
@@ -53,6 +54,10 @@ public class Lutador {
         this.derrotas = derrotas;
         this.empates = empates;
 
+    }
+    
+    public Lutador(){
+        
     }
 
     public void ganharLuta() {
@@ -86,7 +91,7 @@ public class Lutador {
         this.nacionalidade = nacionalidade;
     }
 
-    private String getCategoria() {
+    public String getCategoria() {
         return categoria;
     }
 
