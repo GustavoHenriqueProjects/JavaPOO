@@ -1,4 +1,4 @@
-package aula10_poliformismodesobreposicaoexercicioanimais;
+package exercicio10_poliformismodesobreposicaoexercicioanimais;
 
 //Classe Mamifero extende e sobrescreve os métodos animal
 public class Mamifero extends Animal{

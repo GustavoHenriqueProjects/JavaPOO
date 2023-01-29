@@ -1,4 +1,4 @@
-package aula10_poliformismodesobreposicaoexercicioanimais;
+package exercicio10_poliformismodesobreposicaoexercicioanimais;
 
 public class Ave extends Animal{
     

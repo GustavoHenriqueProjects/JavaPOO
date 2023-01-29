@@ -1,6 +1,6 @@
-package aula10_poliformismodesobreposicaoexercicioanimais;
+package exercicio10_poliformismodesobreposicaoexercicioanimais;
 
-public class Aula10_PoliformismoDeSobreposicaoExercicioAnimais {
+public class Exercicio10_PoliformismoDeSobreposicaoExercicioAnimais {
 
     public static void main(String[] args) {
         

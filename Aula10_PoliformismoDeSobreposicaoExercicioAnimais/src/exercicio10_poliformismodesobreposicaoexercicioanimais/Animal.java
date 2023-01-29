@@ -1,4 +1,4 @@
-package aula10_poliformismodesobreposicaoexercicioanimais;
+package exercicio10_poliformismodesobreposicaoexercicioanimais;
 
 //Classe animal é abstrada e não pode ser instanciada
 public abstract class Animal{
